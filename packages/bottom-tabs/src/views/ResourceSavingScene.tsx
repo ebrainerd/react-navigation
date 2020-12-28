@@ -2,10 +2,7 @@ import * as React from 'react';
 import { Platform, StyleSheet, View } from 'react-native';
 import {
   Screen,
-  screensEnabled,
-  // @ts-ignore
-  shouldUseActivityState,
-} from 'react-native-screens';
+  screensEnabled } from 'react-native-screens';
 
 type Props = {
   isVisible: boolean;
